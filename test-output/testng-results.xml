@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="11" total="12" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-17T06:07:25Z" name="Suite1" finished-at="2021-12-17T06:07:39Z" duration-ms="13791">
+    <groups>
+    </groups>
+    <test started-at="2021-12-17T06:07:25Z" name="Demo" finished-at="2021-12-17T06:07:39Z" duration-ms="13791">
+      <class name="com.envision.learning.demos.Alertiframewindows">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.envision.learning.demos.Alertiframewindows@2118cddf]" started-at="2021-12-17T06:07:25Z" name="launchBrowser" finished-at="2021-12-17T06:07:26Z" duration-ms="1651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="closeModalWindow()[pri:0, instance:com.envision.learning.demos.Alertiframewindows@2118cddf]" started-at="2021-12-17T06:07:26Z" name="closeModalWindow" finished-at="2021-12-17T06:07:38Z" duration-ms="11429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeModalWindow -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.envision.learning.demos.Alertiframewindows@2118cddf]" started-at="2021-12-17T06:07:38Z" name="closeBrowser" finished-at="2021-12-17T06:07:39Z" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.envision.learning.demos.Alertiframewindows -->
+    </test> <!-- Demo -->
+  </suite> <!-- Suite1 -->
+</testng-results>

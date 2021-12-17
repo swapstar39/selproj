@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+  <suite name="Suite1" verbose="1" >
+  <test name="Demo" >
+    <classes>
+       <class name="com.envision.learning.demos.Widgets">
+       		<methods>
+       				 <!-- <include name="verifyMenuItemClick" /> -->
+       				<!--  <include name="verifyTooltipMessage" /> -->
+       				 <!-- <include name="verifyProgressbar" /> -->
+       				<!--  <include name="verifyProgressbar1" /> -->
+       				 <!-- <include name="verifyTabSelection" /> -->
+       				 <include name="verifyTabSelection1" />
+       			
+       		</methods>
+    </class>  
+    </classes>
+  </test>
+</suite>

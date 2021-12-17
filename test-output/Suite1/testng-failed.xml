@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Demo(failed)">
+    <classes>
+      <class name="com.envision.learning.demos.Alertiframewindows">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeModalWindow"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.envision.learning.demos.Alertiframewindows -->
+    </classes>
+  </test> <!-- Demo(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+  <suite name="Suite1" verbose="1" >
+  <test name="Demo" >
+    <classes>
+       <class name="com.envision.learning.demos.Alertiframewindows">
+       		<methods>
+       				<!--  <include name="alert" />-->
+       				<!-- <include name="windowtab" /> -->
+       				<!-- <include name="newwindow" /> -->
+       				<!-- <include name="newwindowmessage" /> -->
+       				<!-- <include name="verifyOpenTabFunctionality" /> -->
+       				<!-- <include name="verifyOpenTabUsingRobot" /> -->
+       				<!-- <include name="verifyOpenTabFunctionality1" /> -->
+       				<!-- <include name="scrollingInSelenium" /> -->
+       				<!-- <include name="switchToFrame" /> -->
+       				<include name="closeModalWindow" />
+       				<!-- <include name="verifyLinks" /> -->	
+       		</methods>
+    </class>  
+    </classes>
+  </test>
+</suite>
